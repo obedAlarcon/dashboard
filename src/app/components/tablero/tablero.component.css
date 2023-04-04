@@ -1,0 +1,40 @@
+
+.contenedor{
+    margin: 0;
+    width: 100%;
+height:auto;
+   background-image: url(src/assets/images/fondo004.png);
+   border-radius: 10px;
+}
+
+.texto{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+h1{
+    margin-top: 100px;
+    font-size: 40px;
+    color:white;
+ 
+       font-family: 'Permanent Marker', cursive;
+}
+h3{
+    font-size: 15px;
+    color: white;
+    margin-left: 60px;
+       font-family: 'Permanent Marker', cursive;
+}
+.tarjetas{
+   width: 100%;
+   margin-top: 100px;
+    height: auto;
+    display: flex;
+}
+mat-card{
+    width: 380px;
+    height: 100px;
+    margin: 20px;
+}
